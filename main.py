@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+text = 'Это моя строка'
+print('Вывод 1')
+print(text[0])
+print('Вывод 2')
+print(text[-1])
+print('Вывод 3')
+print(text[2:5])
+print('Вывод 4')
+print(text[::-1])
+print('Вывод 5')
+print(len(text))
+print('Вывод 6')
+print('Это новая строка ' + text)
