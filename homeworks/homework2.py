@@ -1,10 +1,10 @@
 name = 'Denis'
-print (name, type(name))
+print ('Name:', name, '| Var Type' , type(name))
 age = 41
-print(age, type(age))
+print('Age:', age, '| Var Type', type(age))
 age = age + 1
-print (age, type(age))
+print ('Age + 1:', age, '| Var Type', type(age))
 age = 41.0
-print (age, type(age))
+print ('Age:', age, '| Var Type', type(age))
 is_student = True
-print (is_student, type(is_student))
+print ('Student:', is_student, '| Var Type', type(is_student))
