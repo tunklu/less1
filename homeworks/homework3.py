@@ -18,7 +18,7 @@ print('Метод удаления пробелов 3: ')
 stripless_string = ''
 symbol_ = ''
 i = 0
-while i != len(my_string):
+while i < len(my_string):
     if my_string[i] == ' ':
         symbol_ = ''
     else:
