@@ -2,19 +2,14 @@
 example = 'Топинамбур'
 print(example[0])
 print(example[-1])
-length = int(len(example)/2)
+length = int(len(example)//2)
 
-example_char = ''
-for char in range(length, len(example), 1):
-    example_char += example[char]
-print(example_char)
+second_half = example[length:]
+print(second_half)
 
-example_char = ''
-for char in range((len(example)-1), -1, -1):
-    example_char += example[char]
-print(example_char)
+reverse_example = example[::-1]
+print(reverse_example)
 
-example_char = ''
-for char in range(1, (len(example)), 2):
-    example_char += example[char]
-print(example_char)
+every_second_char = example[1::2]
+print(every_second_char)
+
