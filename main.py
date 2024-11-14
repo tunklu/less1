@@ -1,13 +1,15 @@
-text = 'Это моя строка'
-print('Вывод 1')
-print(text[0])
-print('Вывод 2')
-print(text[-1])
-print('Вывод 3')
-print(text[2:5])
-print('Вывод 4')
-print(text[::-1])
-print('Вывод 5')
-print(len(text))
-print('Вывод 6')
-print('Это новая строка ' + text)
+# 1st program
+print((9 ** 0.5) * 5)
+
+#2nd program
+print((9.99 > 9.98) and (1000 != 1000.1) )
+
+#3rd program
+print(2 * 2 + 2)
+print(2 * (2 + 2))
+print((2 * 2 + 2) == (2 * (2 + 2)))
+
+#4th program
+print('123.456'[4])
+
+print(float('123.456') * 10)
